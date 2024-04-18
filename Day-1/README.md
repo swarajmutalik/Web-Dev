@@ -1,4 +1,4 @@
-# Day-1 Overview - 
+# Day 1 Overview 
 
 ## How Websites Work
 
