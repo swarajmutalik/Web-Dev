@@ -22,4 +22,18 @@ Components of box-shadow are as follows -
 
 - Color - It is used to define the color of the shadow.
 
+### CSS Outlines 
+
+The Outline property is similar to border, but it doe not affect the layout or size of the element. 
+
+Outlines are often used to highlight elements during focus or hover, enhancing accessibility and interactivity. 
+
+Components of outline property are as follows - 
+
+- width - It is used to specify the thickness of the outline.
+
+- style - Define the style of the outline.
+
+- color - Determine the color of the outline.
+
 
