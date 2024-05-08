@@ -7,11 +7,19 @@
     <title>CSS Grid</title>
     <style>
         .container {
+            width: 80vh;
+            height: 100vh;
             border: 2px solid black;
             display: grid;
-            grid-template-columns: 120px 100px;
-            grid-template-rows: 100px 100px 100px;
-
+            /* grid-template-columns: 120px 100px; */
+            /* grid-template-rows: 100px 100px 100px; */
+            /* grid-template-columns: repeat(4, minmax(100px, 1fr)); */
+            grid-template-columns: repeat(4,80px);
+            grid-template-rows: repeat(2,80px);
+            row-gap: 44px;
+            column-gap: 10px;
+            justify-items: center;
+            align-items: center;
         }
 
         .items {
