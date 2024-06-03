@@ -17,3 +17,12 @@
 7. setAttribute - It is used to set the value of the specified attribute.
 
 8. removeAttribute - It is used to remove the specififed attibute from the element.
+
+9. dataset - It is used to provide access to all the data attributes on an element.
+
+10. insertAdjacentHTML - It is used to insert HTML text into a specified position that is relative to an element.
+
+11. classList - It is used to return a live 'DOMTokenList' of the class attribute on an element, providing the methods to add, remove, and toggle classes.
+
+12. className - Gets or sets the value of the 'class' attribute of an element as a string.
+

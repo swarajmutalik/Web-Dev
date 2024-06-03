@@ -10,3 +10,16 @@ console.log(
 );
 
 console.log(document.querySelector(".box").removeAttribute("style"));
+console.log(document.querySelector(".box").dataset);
+
+// let div = document.createElement('div')
+// div.innerHTML = "<b>I have been inserted</b>"
+// div.setAttribute('class','created')
+// document.querySelector('.container').append(div)
+
+let cont = document.querySelector(".container");
+cont.insertAdjacentHTML("afterend", "<b>Under the water, help me</b>");
+
+console.log(document.querySelector(".container").classList);
+console.log(document.querySelector(".container").className);
+console.log(document.querySelector(".container").classList.toggle("red"));
