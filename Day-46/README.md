@@ -15,3 +15,10 @@ A callback is a function that is passed into another function as an argument, wh
 #### Nested Callbacks 
 
 when the callbacks are nested within other callbacks, it can lead to a situation known as "callback hell" which makes the code difficult to read and maintain. 
+
+#### JS Promises 
+
+A Promise is an object that is used to represent the eventual completion of an asynchrous operation and its resulting value. 
+
+Promises provide a cleaner and more robust way to handle the async operations to callbacks.
+
