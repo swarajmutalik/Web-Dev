@@ -1,30 +1,33 @@
 console.log("Hello");
-console.log("Holla");
+console.log("Hey");
 
 setTimeout(() => {
-  console.log("I am inside settimeout");
-}, 0);
+  console.log("SetTimeOut function");
+}, 1000);
 
 setTimeout(() => {
-  console.log("I am insideout settimeout 2");
-}, 0);
+  console.log("SetTimeOut function 2");
+}, 2000);
 
-console.log("The End");
+console.log("Ending");
 
 const fn = () => {
-    console.log("Nothing")
-}
+  console.log("Nothing to show");
+};
 
-const callback = ((arg,fn) =>{
-    console.log(arg)
-    fn()
-})
+const callback = (arg, fn) => {
+  console.log(arg);
+  fn();
+};
 
-const loadscript = (src, callback){
-    let sc = document.createElement('script')
-    sc.src = src
-    sc.onload = callback("Swaraj",fn)
-    document.head.append(sc)
-}
+const loadScript = (src, callback) => {
+  let sc = document.createElement("script");
+  sc.src = src;
+  sc.onload = callback("Swaraj",fn);
+  document.head.append(sc);
+};
 
-loadScript("https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js", callback )
+loadScript(
+  "https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js",
+  callback
+);
