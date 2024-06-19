@@ -37,6 +37,7 @@ class Lion extends Animal {
     console.log("Object is created and he is a lion");
   }
   eats() {
+    super.eats();
     console.log("Kha rha hu");
   }
 }

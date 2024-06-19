@@ -25,4 +25,9 @@
 
 - Instantiation is the process of creating an instance from a class. The 'new' keyword is used to create an instance of a class.
 
+### Getters and Setters 
+
+- A getter method allows you to define a method that retrieves a property value. 
+
+- A setter method allows you to define a method that sets a property value. 
 
