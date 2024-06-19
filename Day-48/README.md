@@ -4,16 +4,27 @@
 
 Error Handling in JS is important for making applications user-friendly. It allows developers to manage errors, preventing them from crashing the entire application.
 
-### try-catch block
+JS provides a 'try...catch' statement to  handle the exceptions.
 
-- It mainly consists of two blocks that is the try and catch block.
+### try-catch statment 
 
-- The code inside the 'try' block is executed and if an error occurs then the control is transferred to the 'catch' block.
+- try - It is used to wrap the block of code that might throw an error. 
 
-- The 'catch' block receives an error object, which contains information about the error.
+- catch - It executes when an error occurs in the 'try' block. 
 
-### finally block
+- finally - It executes after the 'try' and 'catch' blocks, regardless of whether an error was thrown or not. 
 
-- We can also include the 'finally' block that will execute regardless of whether an error was thrown or not.
+### Key Points 
 
-- 'finally' block is useful for cleanup tasks, such as closing files or network connection.
+- If an error occurs in the 'try' block, the remaining code in the 'try' block is skipped and the control is transferred to the 'catch' block.
+
+- The 'finally' block is useful for cleanup actions such as closing files or releasing resources, that need to occur regardless of an error. 
+
+### Custom Errors 
+
+- We can throw custom errors using the 'throw' statement.
+
+- Custom errors can be instances of the 'Error' class or derived class 
+
+- Throwing custom errors can make your error handling more specific and meaningful.
+
