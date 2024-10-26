@@ -1,6 +1,6 @@
-<h1>Website Workflow</h1>
+# Website Workflow 
 
-<p>Websites work by allowing the users to access and interact with the content over the internet.</p>
+Websites work by allowing the users to access and interact with the content over the internet.
 
 1. User Request - 
 - A user types a website URL into a web browser or clicks a link.
