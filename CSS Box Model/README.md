@@ -8,7 +8,7 @@ It consists of the following 4 parts : -
 
     - It is the innermost area where the text, images or other content is displayed.
 
-    - The Width and Height properties define the size of the content box.
+    - The `Width` and `Height` properties define the size of the content box.
 
 2. Padding
 
@@ -28,8 +28,8 @@ It consists of the following 4 parts : -
 
 ## Box Model Properties
 
-- Box Sizing - It defines how the width and height are calculated.
+- `Box Sizing` - It defines how the width and height are calculated.
 
-- content-box - Default; width/height include only the content box.
+- `content-box` - Default; width/height include only the content box.
 
-- border-box: Width/height include content, padding, and border.
+- `border-box`: Width/height include content, padding, and border.
