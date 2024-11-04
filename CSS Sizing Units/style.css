@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* width: 233px; */
+    width: 80vw;
+    height: 10vh;
+    background-color: aqua;
+    margin: auto;
+}
+
+.container {
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* width: 233px; */
+    width: 80vw;
+    height: 80vh;
+    background-color: aqua;
+    margin: 23px auto;
+    font-size: 16px;
+}
+
+.container p {
+    font-size: 2em;
+}
+
+.cont {
+    background-color: red;
+    color: yellow;
+    font-size: 22px;
+    width: 100vmin;
+}
