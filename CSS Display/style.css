@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    border: 2px solid blue;
+    /* display: inline-block; */
+    width: 233px;
+    padding: 45px;
+    margin: 34px;
+}
+
+.box-1 {
+    display:none;
+    /* visibility: hidden; */
+}
+
+
+
