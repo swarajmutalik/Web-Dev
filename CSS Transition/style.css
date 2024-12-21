@@ -1,0 +1,21 @@
+.container {
+    background-color: aqua;
+    width: 50vw;
+    height: 40vh;
+}
+
+.box {
+    background-color: red;
+    height: 4vh;
+    width: 5vw;
+    transition-property: background-color, transform;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 1s;
+
+}
+
+.tr {
+    transform: translateX(10vw) translateY(10vh) scale(2);
+    background-color: black;
+}
