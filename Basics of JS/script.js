@@ -1,15 +1,22 @@
-console.log("Introduction to JS Variables");
+console.log("JS Variables");
 
-var a = 5;
+let a = 5;
 // a = a + 1;
-var b = 6;
-
+let b = 6;
 let c = "Swaraj";
 
-console.log(a + b + 9);
-console.log(typeof a, typeof b, typeof c);
+// console.log(a + b + 8);
+// console.log(typeof a, typeof b, typeof c);
 
-let x = "Swaraj Mutalik";
+{
+  let a = 66;
+  console.log(a);
+}
+console.log(a);
+const a1 = 6;
+// a1 = a1 + 1;
+
+let x = "Swaraj";
 let y = 22;
 let z = 3.55;
 const p = true;
@@ -21,10 +28,10 @@ console.log(typeof x, typeof y, typeof z, typeof p, typeof q, typeof r);
 
 let o = {
   name: "Swaraj",
-  "job code": 5600,
-  is_handsome: true,
+  "job code": 556,
+  "ishandsome": true,
 };
 
 console.log(o);
-o.salary = "10 Cr";
+o.salary = "10L";
 console.log(o);
