@@ -1,17 +1,24 @@
-console.log("Introduction to Conditionals");
-let age = 1;
+console.log("Conditionals in JS");
+
+let age = 15;
+let grace = 2;
+
+// if ((age + grace) > 18) {
+//   console.log("You can drive");
+// } else {
+//   console.log("You cannot drive");
+// }
 
 if (age == 18) {
   console.log("You can drive");
 } else if (age == 0) {
-  console.log("Are you Kidding ?");
-} else if (age == 1) {
-  console.log("Are you again Kidding ?");
+  console.log("Are you Kidding me ?");
 } else {
   console.log("You cannot drive");
 }
 
-a = 6;
-b = 8;
-let c = a > b ? a - b : b - a;
+let d = 4;
+let e = 6;
+
+let c = d > e ? d - e : e - d;
 console.log(c);
