@@ -1,27 +1,30 @@
-let a = [1, 93, 5, 6, 88];
+let arr = [1, 2, 3, 4, 5, 6];
 
-// for (let i = 0; i < a.length; i++) {
-//     const element = a[i];
-//     console.log(element);
-// }
+console.log(arr);
+console.log(arr.length);
 
-// a.forEach((value, index, arr) => {
-//     console.log(value, index);
-// })
+arr[0] = 23;
 
-let obj = {
-    a: 1,
-    b: 2,
-    c: 3
-}
+console.log(arr, typeof arr);
 
-for (const key in obj) {
-    if (obj.hasOwnProperty.call(obj, key)) {
-        const element = obj[key];
-        console.log(key, element);
-    }
-}
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr[2]);
+// console.log(arr[3]);
 
-for (const value of a) {
-    console.log(value);
-}
+console.log(arr.toString());
+console.log(arr.join(" and "));
+
+let a = [1, 2, 3, 4, 5, 6];
+console.log(a.pop());
+console.log(a.push(10));
+console.log(a);
+
+let a1 = [1, 2, 3];
+let a2 = [4, 5, 6];
+let a3 = [7, 8, 9];
+
+console.log(a1.concat(a2, a3));
+
+let nums = [1, 2, 3, 4, 5, 6];
+console.log(nums.splice(1, 4));
