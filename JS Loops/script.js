@@ -1,28 +1,26 @@
-for (let i = 0; i < 100; i++) {
-  console.log(i);
-}
+console.log("JS Loops");
+
+// for (let i = 0; i < 100; i++) {
+//   console.log(i);
+// }
 
 let obj = {
   name: "Swaraj",
-  role: "SOC Analyst",
-  Company: "BT",
-};
+  role:"CyberSecurity Analyst",
+
+}
 
 for (const key in obj) {
-  console.log(key);
+    const element = obj[key]; 
+    console.log(element);   
 }
 
 for (const c of "Swaraj") {
   console.log(c);
 }
 
-let a = 0;
-while (a < 5) {
-  console.log(a);
-  a++;
+i = 5;
+while (i < 6){
+  console.log(i);
+  i++;
 }
-
-let b = 10;
-do {
-  console.log(b);
-} while (b < 6);
