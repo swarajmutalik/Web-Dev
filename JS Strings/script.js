@@ -1,18 +1,26 @@
+console.log("Introduction to Strings");
+
 let a = "Swaraj";
-console.log(a);
+
 console.log(a[0]);
+console.log(a[1]);
+console.log(a[2]);
+console.log(a[3]);
+console.log(a[4]);
+console.log(a[5]);
+// console.log(a[6]);
+
 console.log(a.length);
 
+let myname = "Swaraj";
+let friend = "Abhishek";
+// console.log("My name is " + myname + " and my friends name is " + friend);
+console.log(`My name is ${myname} and my friends name is ${friend}`);
 
-let real_name = "Swaraj";
-let friend = "Arun";
-console.log(real_name + " and " + friend);
+let b = "Swaraj";
+console.log(b.toUpperCase());
+console.log(b.toLowerCase());
+console.log(b.slice(1, 4));
 
-let b = "Swarika";
-console.log(b.toLocaleUpperCase());
-console.log(b.toLocaleLowerCase());
-console.log(b.slice(1,5));
-console.log(b.slice(1));
-
-console.log(b.replace("Swa","Ra"));
-console.log(b.concat(b," is a good person"))
+console.log(b.replace("Sw", "11"));
+console.log(b.concat(a, "Soul"));
